@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main()
+{
+    float a=22;
+    float b=32;
+    float c=51;
+    float d=3;
+    
+    if(a==b && a==c && a==d && b==a && b==c && b==d && c==a && c==b && c==d && d==a && d==b && d==c){
+        printf("Todos los numeros son iguales");
+    }
+    else{
+        if(a>b && a>c && a>d){
+            printf("A es mayor");
+        }
+        else{
+            if(b>a && b>c && b>d){
+                printf("B es mayor");
+            }
+            else{
+                if(c>a && c>b && c>d){
+                    printf("C es mayor");
+                }
+                else{
+                    if(d>a && d>b && d>c){
+                        printf("D es mayor");
+                    }
+                        
+                }
+            }
+                
+            
+        }
+        
+    }
+    
+}
