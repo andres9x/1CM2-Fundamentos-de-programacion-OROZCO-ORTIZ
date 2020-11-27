@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    
+    int x = 0;
+    int y = 1;
+    int N = 21;    /*Teniendo a N como contador que define hasta cuando vamos a parar*/
+    int Suma= x + y;
+    printf("0");
+    while (Suma<=N){
+        printf ("\n""%d", Suma);
+        Suma=x+y;
+        x=y;
+        x=Suma;
+    }
+    
+   
+}
